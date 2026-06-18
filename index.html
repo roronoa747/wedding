@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="kk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ильяс & Аруна — Той 11 тамыз 2026</title>
+  <meta name="description" content="Ильяс пен Арунаның тойына шақырылдыңыз — 2026 жылдың 11 тамызы." />
+  <meta property="og:title" content="Ильяс & Аруна — Той" />
+  <meta property="og:description" content="11 тамыз 2026 · Сіз шақырылдыңыз" />
+  <meta property="og:type" content="website" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Montserrat:wght@200;300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ========== LANGUAGE SWITCHER ========== -->
+  <div class="lang-switcher" id="lang-switcher">
+    <button class="lang-btn active" id="btn-kz" data-lang="kz" aria-label="Қазақша">ҚАЗ</button>
+    <span class="lang-sep">·</span>
+    <button class="lang-btn" id="btn-ru" data-lang="ru" aria-label="Русский">РУС</button>
+    <span class="lang-sep">·</span>
+    <button class="lang-btn" id="btn-en" data-lang="en" aria-label="English">ENG</button>
+  </div>
+
+  <!-- ========== MUSIC PLAYER ========== -->
+  <button id="music-btn" class="music-btn" aria-label="Музыка">
+    <span class="music-icon" id="music-icon">♪</span>
+    <span class="music-waves" id="music-waves">
+      <span></span><span></span><span></span>
+    </span>
+  </button>
+  <audio id="bg-music" loop>
+    <!-- Замените на свой MP3: <source src="music.mp3" type="audio/mpeg"> -->
+    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mpeg" />
+  </audio>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section id="hero" class="hero">
+    <div class="bokeh-bg">
+      <span class="bokeh"></span><span class="bokeh"></span>
+      <span class="bokeh"></span><span class="bokeh"></span>
+      <span class="bokeh"></span><span class="bokeh"></span>
+      <span class="bokeh"></span><span class="bokeh"></span>
+      <span class="bokeh"></span><span class="bokeh"></span>
+      <span class="bokeh"></span><span class="bokeh"></span>
+    </div>
+
+    <div class="petals-container" id="petals"></div>
+
+    <div class="hero-content">
+      <p class="hero-pre reveal-up" data-i18n="hero-pre">Сіз шақырылдыңыз</p>
+      <h1 class="hero-names reveal-up delay-1">Ильяс <span class="ampersand">&amp;</span> Аруна</h1>
+      <div class="hero-divider reveal-up delay-2">
+        <span class="line"></span>
+        <span class="diamond">◇</span>
+        <span class="line"></span>
+      </div>
+      <p class="hero-date reveal-up delay-3" data-i18n="hero-date">11 тамыз 2026</p>
+      <p class="hero-time reveal-up delay-4" data-i18n="hero-time">18:00-де</p>
+    </div>
+
+    <div class="hero-photo reveal-photo">
+      <img src="photo.png" alt="Ильяс пен Аруна" id="hero-img" />
+    </div>
+
+    <div class="scroll-hint">
+      <span data-i18n="scroll-hint">төмен</span>
+      <div class="scroll-arrow">
+        <span></span><span></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COUNTDOWN ========== -->
+  <section id="countdown-section" class="section countdown-section">
+    <div class="section-inner">
+      <p class="section-label reveal-up" data-i18n="countdown-label">Тойға дейін қалды</p>
+      <div class="countdown reveal-up delay-1" id="countdown">
+        <div class="countdown-item">
+          <span class="count-num" id="days">00</span>
+          <span class="count-label" id="days-label" data-i18n="days-label">күн</span>
+        </div>
+        <div class="countdown-dot">:</div>
+        <div class="countdown-item">
+          <span class="count-num" id="hours">00</span>
+          <span class="count-label" id="hours-label" data-i18n="hours-label">сағат</span>
+        </div>
+        <div class="countdown-dot">:</div>
+        <div class="countdown-item">
+          <span class="count-num" id="minutes">00</span>
+          <span class="count-label" id="minutes-label" data-i18n="minutes-label">минут</span>
+        </div>
+        <div class="countdown-dot">:</div>
+        <div class="countdown-item">
+          <span class="count-num" id="seconds">00</span>
+          <span class="count-label" id="seconds-label" data-i18n="seconds-label">секунд</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== DETAILS ========== -->
+  <section id="details" class="section details-section">
+    <div class="section-inner">
+      <h2 class="section-title reveal-up" data-i18n="details-title">Той мәліметтері</h2>
+      <div class="details-grid">
+        <div class="detail-card reveal-up delay-1">
+          <div class="detail-icon">🕕</div>
+          <h3 data-i18n="detail-time-title">Уақыт</h3>
+          <p data-i18n="detail-time-val">11 тамыз 2026<br />Басталуы 18:00-де</p>
+        </div>
+        <div class="detail-card reveal-up delay-2">
+          <div class="detail-icon">📍</div>
+          <h3 data-i18n="detail-venue-title">Орын</h3>
+          <p data-i18n="detail-venue-val">Мейрамхана атауы<br />Мекенжай</p>
+        </div>
+        <div class="detail-card reveal-up delay-3">
+          <div class="detail-icon">👗</div>
+          <h3 data-i18n="detail-dress-title">Киім үлгісі</h3>
+          <p data-i18n="detail-dress-val">Салтанатты<br />Жұмсақ реңктер</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== QUOTE ========== -->
+  <section class="section quote-section">
+    <div class="section-inner">
+      <div class="quote-block reveal-up">
+        <span class="quote-mark">"</span>
+        <p class="quote-text" data-i18n="quote-text">
+          Екі жүрек, бір тағдыр.<br />Бір жол, бір махаббат.
+        </p>
+        <span class="quote-mark closing">"</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== RSVP FORM ========== -->
+  <section id="rsvp" class="section rsvp-section">
+    <div class="section-inner">
+      <h2 class="section-title reveal-up" data-i18n="rsvp-title">Қатысуды растау</h2>
+      <p class="section-subtitle reveal-up delay-1" data-i18n-html="rsvp-subtitle">
+        <strong>1 тамызға дейін</strong> хабарлаңыз
+      </p>
+
+      <form
+        id="rsvp-form"
+        class="rsvp-form reveal-up delay-2"
+        action="https://script.google.com/macros/s/AKfycbwb7bOw7FjDg1k8i2B6LZ5dTvBGWik1GO6hVEpyB3BdT_zAloGv1NrxMEukzDaoTA/exec"
+        method="POST"
+      >
+        <!-- Name -->
+        <div class="form-group">
+          <label for="guest-name" data-i18n="rsvp-name-label">Сіздің атыңыз</label>
+          <input
+            id="guest-name"
+            type="text"
+            name="name"
+            data-i18n-placeholder="rsvp-name-placeholder"
+            placeholder="Атыңызды енгізіңіз"
+            required
+            autocomplete="off"
+          />
+        </div>
+
+        <!-- Attendance -->
+        <div class="form-group">
+          <label data-i18n="rsvp-attendance-label">Келесіз бе?</label>
+          <div class="radio-group">
+            <label class="radio-option" id="opt-yes">
+              <input type="radio" name="attendance" value="yes" required />
+              <span class="radio-custom"></span>
+              <span class="radio-label" data-i18n="rsvp-yes">🥂 Иә, келемін!</span>
+            </label>
+            <label class="radio-option" id="opt-no">
+              <input type="radio" name="attendance" value="no" />
+              <span class="radio-custom"></span>
+              <span class="radio-label" data-i18n="rsvp-no">💌 Өкінішке орай, келе алмаймын</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Guest count -->
+        <div class="form-group" id="guests-field" style="display:none">
+          <label for="guest-count" data-i18n="rsvp-guests-label">Қонақтар саны (сіз қосылғанда)</label>
+          <select id="guest-count" name="guests">
+            <option value="1" data-i18n="guest-1">1 адам</option>
+            <option value="2" data-i18n="guest-2">2 адам</option>
+            <option value="3" data-i18n="guest-3">3 адам</option>
+            <option value="4" data-i18n="guest-4">4 адам</option>
+          </select>
+        </div>
+
+        <!-- Message -->
+        <div class="form-group">
+          <label for="guest-message" data-i18n="rsvp-message-label">Жас жұбайларға тілектер (қалауы бойынша)</label>
+          <textarea
+            id="guest-message"
+            name="message"
+            data-i18n-placeholder="rsvp-message-placeholder"
+            placeholder="Жылы сөздеріңізді жазыңыз..."
+            rows="3"
+          ></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn" id="submit-btn">
+          <span data-i18n="rsvp-submit">Жіберу</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
+          </svg>
+        </button>
+
+        <!-- Success message -->
+        <div class="form-success" id="form-success" aria-live="polite">
+          <div class="success-icon">✦</div>
+          <p data-i18n="rsvp-success">Рахмет! Жауабыңызды алдық 🤍</p>
+          <p class="success-sub" data-i18n="rsvp-success-sub">Мерекемізде сізді асыға күтеміз.</p>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p class="footer-names">Ильяс &amp; Аруна</p>
+      <p class="footer-date">11 · 08 · 2026</p>
+      <p class="footer-note" data-i18n="footer-note">Сізді сүйіспеншілікпен күтеміз ✦</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
