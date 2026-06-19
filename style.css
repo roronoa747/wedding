@@ -533,6 +533,7 @@ body {
    ============================================= */
 .quote-section {
   background: linear-gradient(180deg, #F8F4EE 0%, #FAF8F5 100%);
+  padding-bottom: clamp(20px, 4vw, 40px);
 }
 .quote-block {
   display: flex;
@@ -559,6 +560,22 @@ body {
   color: var(--text);
   line-height: 1.6;
   font-weight: 300;
+}
+
+/* =============================================
+   HOSTS
+   ============================================= */
+.hosts-section {
+  background: var(--cream);
+  padding-top: clamp(10px, 2vw, 20px);
+}
+.hosts-names {
+  font-family: var(--font-serif);
+  font-size: clamp(28px, 6vw, 40px);
+  color: var(--text);
+  font-weight: 400;
+  margin-top: 10px;
+  line-height: 1.2;
 }
 
 /* =============================================
