@@ -45,8 +45,7 @@ const translations = {
     'footer-note':           'Сізді сүйіспеншілікпен күтеміз ✦',
     'guest-1':               '1 адам',
     'guest-2':               '2 адам',
-    'guest-3':               '3 адам',
-    'guest-4':               '4 адам',
+
     // Attendance values sent to Formspree
     'attendance-yes':        'Иә, келемін!',
     'attendance-no':         'Өкінішке орай, келе алмаймын',
@@ -75,8 +74,8 @@ const translations = {
     'rsvp-name-label':       'Ваше имя',
     'rsvp-name-placeholder': 'Введите ваше имя',
     'rsvp-attendance-label': 'Вы придёте?',
-    'rsvp-yes':              '🥂 Да, приду!',
-    'rsvp-no':               '💌 К сожалению, не смогу',
+    'rsvp-yes':              '🥂 Да!',
+    'rsvp-no':               '💌 Не смогу',
     'rsvp-guests-label':     'Количество гостей (включая вас)',
     'rsvp-message-label':    'Пожелания молодожёнам (по желанию)',
     'rsvp-message-placeholder': 'Напишите ваши тёплые слова...',
@@ -88,10 +87,9 @@ const translations = {
     'footer-note':           'С любовью ждём вас ✦',
     'guest-1':               '1 человек',
     'guest-2':               '2 человека',
-    'guest-3':               '3 человека',
-    'guest-4':               '4 человека',
-    'attendance-yes':        'Да, приду!',
-    'attendance-no':         'К сожалению, не смогу',
+
+    'attendance-yes':        'Да!',
+    'attendance-no':         'Не смогу',
   },
   en: {
     'hero-pre':              'Dear guests!<br/>We are honored to invite you to the celebration dedicated to the wedding of our children —',
@@ -130,8 +128,7 @@ const translations = {
     'footer-note':           'With love, we await you ✦',
     'guest-1':               '1 person',
     'guest-2':               '2 people',
-    'guest-3':               '3 people',
-    'guest-4':               '4 people',
+
     'attendance-yes':        'Yes, I will be there!',
     'attendance-no':         'Unfortunately, I cannot attend',
   }

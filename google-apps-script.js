@@ -93,7 +93,7 @@ function getOrCreateSheet() {
 function sendNotification(data, timestamp) {
   try {
     var isYes    = data.attendance && data.attendance !== "Unfortunately, I cannot attend"
-                   && data.attendance !== "К сожалению, не смогу"
+                   && data.attendance !== "Не смогу"
                    && data.attendance !== "Өкінішке орай, келе алмаймын";
     var emoji    = isYes ? "✅" : "❌";
     var subject  = emoji + " RSVP: " + (data.name || "Гость") + " — Той Ильяс & Аруна";
