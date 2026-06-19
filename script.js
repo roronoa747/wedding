@@ -10,6 +10,7 @@
 const translations = {
   kz: {
     'hero-pre':              'Құрметті қонақтар!<br/>СІЗ(ДЕР)ДІ БАЛАЛАРЫМЫЗ',
+    'hero-names':            'Ильяс <span class="ampersand">&amp;</span> Аруна',
     'hero-post':             'ҮЙЛЕНУ ТОЙЫНА АРНАЛҒАН САЛТАНАТТЫ АҚ ДАСТАРХАНЫМЫЗДЫҢ<br/>ҚАДІРЛІ ҚОНАҒЫ БОЛУҒА ШАҚЫРАМЫЗ!',
     'hero-date':             '11 тамыз 2026',
     'hero-time':             '18:00-де',
@@ -38,6 +39,7 @@ const translations = {
     'rsvp-success':          'Рахмет! Жауабыңызды алдық 🤍',
     'rsvp-success-sub':      'Мерекемізде сізді асыға күтеміз.',
     'scroll-hint':           'төмен',
+    'footer-names':          'Ильяс &amp; Аруна',
     'footer-note':           'Сізді сүйіспеншілікпен күтеміз ✦',
     'guest-1':               '1 адам',
     'guest-2':               '2 адам',
@@ -49,6 +51,7 @@ const translations = {
   },
   ru: {
     'hero-pre':              'Уважаемые гости!<br/>Имеем честь пригласить вас на торжество, посвященное бракосочетанию наших детей —',
+    'hero-names':            'Ильяс <span class="ampersand">&amp;</span> Аруна',
     'hero-post':             'Разделите с нами этот светлый и праздничный день, став почетными гостями за нашим праздничным дастарханом.',
     'hero-date':             '11 августа 2026',
     'hero-time':             'в 18:00',
@@ -77,6 +80,7 @@ const translations = {
     'rsvp-success':          'Спасибо! Мы получили ваш ответ 🤍',
     'rsvp-success-sub':      'С нетерпением ждём вас на нашем празднике.',
     'scroll-hint':           'листай',
+    'footer-names':          'Ильяс &amp; Аруна',
     'footer-note':           'С любовью ждём вас ✦',
     'guest-1':               '1 человек',
     'guest-2':               '2 человека',
@@ -87,6 +91,7 @@ const translations = {
   },
   en: {
     'hero-pre':              'Dear guests!<br/>We are honored to invite you to the celebration dedicated to the wedding of our children —',
+    'hero-names':            'Ilyas <span class="ampersand">&amp;</span> Aruna',
     'hero-post':             'Please share this bright and festive day with us as honored guests at our celebration.',
     'hero-date':             'August 11, 2026',
     'hero-time':             'at 6:00 PM',
@@ -115,6 +120,7 @@ const translations = {
     'rsvp-success':          'Thank you! We received your response 🤍',
     'rsvp-success-sub':      'We cannot wait to celebrate with you.',
     'scroll-hint':           'scroll',
+    'footer-names':          'Ilyas &amp; Aruna',
     'footer-note':           'With love, we await you ✦',
     'guest-1':               '1 person',
     'guest-2':               '2 people',
