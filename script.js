@@ -9,7 +9,8 @@
 // =========================================
 const translations = {
   kz: {
-    'hero-pre':              'Сіз шақырылдыңыз',
+    'hero-pre':              'Құрметті қонақтар!<br/>СІЗ(ДЕР)ДІ БАЛАЛАРЫМЫЗ',
+    'hero-post':             'ҮЙЛЕНУ ТОЙЫНА АРНАЛҒАН САЛТАНАТТЫ АҚ ДАСТАРХАНЫМЫЗДЫҢ<br/>ҚАДІРЛІ ҚОНАҒЫ БОЛУҒА ШАҚЫРАМЫЗ!',
     'hero-date':             '11 тамыз 2026',
     'hero-time':             '18:00-де',
     'countdown-label':       'Тойға дейін қалды',
@@ -49,7 +50,8 @@ const translations = {
     'attendance-no':         'Өкінішке орай, келе алмаймын',
   },
   ru: {
-    'hero-pre':              'Вы приглашены на',
+    'hero-pre':              'Уважаемые гости!<br/>Имеем честь пригласить вас на торжество, посвященное бракосочетанию наших детей —',
+    'hero-post':             'Разделите с нами этот светлый и праздничный день, став почетными гостями за нашим праздничным дастарханом.',
     'hero-date':             '11 августа 2026',
     'hero-time':             'в 18:00',
     'countdown-label':       'До свадьбы осталось',
@@ -88,7 +90,8 @@ const translations = {
     'attendance-no':         'К сожалению, не смогу',
   },
   en: {
-    'hero-pre':              'You are invited to',
+    'hero-pre':              'Dear guests!<br/>We are honored to invite you to the celebration dedicated to the wedding of our children —',
+    'hero-post':             'Please share this bright and festive day with us as honored guests at our celebration.',
     'hero-date':             'August 11, 2026',
     'hero-time':             'at 6:00 PM',
     'countdown-label':       'Until the wedding',
